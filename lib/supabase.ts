@@ -56,7 +56,6 @@ export function isSupabaseConfigured(): boolean {
  */
 export const STOREFRONT_PRODUCT_STATUS_FILTER =
   "status.eq.active,status.eq.published,status.is.null";
-
 /** Collections on the store: active OR legacy rows with is_active NULL. */
 export const STOREFRONT_COLLECTION_ACTIVE_FILTER =
   "is_active.eq.true,is_active.is.null";
